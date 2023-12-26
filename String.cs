@@ -2,7 +2,6 @@
 {
     internal class String
     {
-        static void Main(string[] args)
          static void Main(string[] args)
         {
             String str = "The quick brown fox jumps over the lazy dog";
@@ -27,11 +26,11 @@
 
             //d)	Check whether the String ends with the word “dogs”.
 
-            int dind =str.LastIndexOf("d");
+            int s =str.LastIndexOf("d");
             
-            if (dind!=-1)
+            if (s!=-1)
             {
-                string last = str.Substring(dind);
+                string last = str.Substring(s);
                 if (last == "dog")
                 {
                     Console.WriteLine("Dog is found");
