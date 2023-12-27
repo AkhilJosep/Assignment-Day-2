@@ -62,7 +62,7 @@
           
             //f)Check whether the String is equal to “THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG”.    
             string str3 = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG";
-            if (str.Equals(str3, StringComparison.OrdinalIgnoreCase))
+            if (str.Equals(str3))
             {
                 Console.WriteLine("String is Equal");
             }
